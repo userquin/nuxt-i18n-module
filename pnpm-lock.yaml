@@ -20,8 +20,8 @@ importers:
         specifier: ^9.9.0
         version: 9.9.0
       '@intlify/unplugin-vue-i18n':
-        specifier: ^2.0.0
-        version: 2.0.0(rollup@3.29.4)(vue-i18n@9.9.0)
+        specifier: ^3.0.1
+        version: 3.0.1(rollup@3.29.4)(vue-i18n@9.9.0)
       '@intlify/utils':
         specifier: ^0.12.0
         version: 0.12.0
@@ -1272,8 +1272,8 @@ packages:
       escodegen: 2.1.0
       estree-walker: 2.0.2
       jsonc-eslint-parser: 2.4.0
-      magic-string: 0.30.5
-      mlly: 1.5.0
+      magic-string: 0.30.7
+      mlly: 1.6.1
       source-map-js: 1.0.2
       vue-i18n: 9.9.0(vue@3.4.21)
       yaml-eslint-parser: 1.2.2
@@ -1337,8 +1337,8 @@ packages:
     engines: {node: '>= 16'}
     dev: false
 
-  /@intlify/unplugin-vue-i18n@2.0.0(rollup@3.29.4)(vue-i18n@9.9.0):
-    resolution: {integrity: sha512-1oKvm92L9l2od2H9wKx2ZvR4tzn7gUtd7bPLI7AWUmm7U9H1iEypndt5d985ypxGsEs0gToDaKTrytbBIJwwSg==}
+  /@intlify/unplugin-vue-i18n@3.0.1(rollup@3.29.4)(vue-i18n@9.9.0):
+    resolution: {integrity: sha512-q1zJhA/WpoLBzAAuKA5/AEp0e+bMOM10ll/HxT4g1VAw/9JhC4TTobP9KobKH90JMZ4U2daLFlYQfKNd29lpqw==}
     engines: {node: '>= 14.16'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -1355,7 +1355,7 @@ packages:
       '@intlify/bundle-utils': 7.4.0(vue-i18n@9.9.0)
       '@intlify/shared': 9.9.0
       '@rollup/pluginutils': 5.1.0(rollup@3.29.4)
-      '@vue/compiler-sfc': 3.4.7
+      '@vue/compiler-sfc': 3.4.21
       debug: 4.3.4
       fast-glob: 3.3.2
       js-yaml: 4.1.0
@@ -1363,7 +1363,7 @@ packages:
       pathe: 1.1.2
       picocolors: 1.0.0
       source-map-js: 1.0.2
-      unplugin: 1.6.0
+      unplugin: 1.7.1
       vue-i18n: 9.9.0(vue@3.4.21)
     transitivePeerDependencies:
       - rollup
@@ -3464,7 +3464,7 @@ packages:
       colorette: 2.0.20
       consola: 3.2.3
       fast-glob: 3.3.2
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       pathe: 1.1.2
       perfect-debounce: 1.0.0
     transitivePeerDependencies:
@@ -3534,7 +3534,7 @@ packages:
       '@unocss/rule-utils': 0.58.4
       css-tree: 2.3.1
       fast-glob: 3.3.2
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       postcss: 8.4.35
     dev: true
 
@@ -3608,7 +3608,7 @@ packages:
     engines: {node: '>=14'}
     dependencies:
       '@unocss/core': 0.58.4
-      magic-string: 0.30.5
+      magic-string: 0.30.7
     dev: true
 
   /@unocss/scope@0.58.4:
@@ -3666,7 +3666,7 @@ packages:
       '@unocss/transformer-directives': 0.58.4
       chokidar: 3.5.3
       fast-glob: 3.3.2
-      magic-string: 0.30.5
+      magic-string: 0.30.7
       vite: 5.1.4
     transitivePeerDependencies:
       - rollup
@@ -3683,8 +3683,8 @@ packages:
       '@unocss/core': 0.58.4
       chokidar: 3.5.3
       fast-glob: 3.3.2
-      magic-string: 0.30.5
-      unplugin: 1.6.0
+      magic-string: 0.30.7
+      unplugin: 1.7.1
       webpack: 5.90.0
       webpack-sources: 3.2.3
     transitivePeerDependencies:
@@ -7043,7 +7043,7 @@ packages:
       acorn: 8.11.3
       eslint-visitor-keys: 3.4.3
       espree: 9.6.1
-      semver: 7.5.4
+      semver: 7.6.0
     dev: false
 
   /jsonc-parser@3.2.0:
@@ -7407,7 +7407,7 @@ packages:
       mlly: 1.6.1
       type-level-regexp: 0.1.17
       ufo: 1.4.0
-      unplugin: 1.6.0
+      unplugin: 1.7.1
     dev: true
 
   /magic-string-ast@0.3.0:
